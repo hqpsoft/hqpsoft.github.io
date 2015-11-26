@@ -16,10 +16,13 @@
 　持续部署（continuous deployment）是持续交付的下一步，指的是代码通过评审以后，自动部署到生产环境。持续部署的目标是，代码在任何时刻都是可部署的，可以进入生产阶段。  
 [From](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
 # 流程
-提交 => 测试（第一轮）=> 构建(build) => 测试（第二轮）=> 部署=>回滚
+![ ](http://hqpsoft.github.io/image/git_flow.png)  
+提交 => 测试（第一轮）=> 构建(build) => 测试（第二轮）=> 部署=>回滚  
+**核心是develop => master**
 # 工具
-TeamCity
-ThoughtWorks的Go(收费)
+* TeamCity
+* ThoughtWorks的Go(收费)
+* Jenkins
 
 # [代码审查](http://kb.cnblogs.com/page/192748/)
 [C# 开发者审查代码的41条建议](http://www.cnblogs.com/smiler/p/3274512.html)
@@ -38,4 +41,27 @@ ThoughtWorks的Go(收费)
 
 ##工具
 * gitlab
-* SonarQube
+
+---
+# Web Deploy [MSN](http://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy)  
+
+##How does it work?
+![](http://i1.iis.net/media/7188145/introduction-to-web-deploy-1073-image2.png?cdn_id=2015-07-21-001)
+
+## 相关资料
+* [基础安装使用教程](http://www.cnblogs.com/lichengyi/p/4146626.html)
+* [常见问题](http://www.cnblogs.com/wuchaochao/p/4325521.html)
+* [MSN Blog教程](http://weblogs.asp.net/scottgu/automating-deployment-with-microsoft-web-deploy)
+
+---
+#msbuild
+## 相关资料
+* [入门](http://www.cnblogs.com/linianhui/archive/2012/08/30/2662648.html)
+* [入门(续)](http://www.cnblogs.com/linianhui/archive/2012/09/01/2666104.html)
+
+---
+#初步方案
+MSBuild + TeamCity + GitLab(TFS) + NUnit(非必要)
+
+* [teamcity+msbuild](http://www.danmusk.com/how-to-build-asp-net-applications-in-teamcity-with-msbuild-tools-2013-and-net-framework-4-5-sdk/)
+* [teamcity+VSS(TFS大同小异)](http://www.cnblogs.com/ShineTan/archive/2012/03/26/2417475.html)
