@@ -11,3 +11,5 @@ tags : [Ruby,Rails]
 
 #工具安装
 [下载](http://railsinstaller.org/en),RailsInstaller可以快速安装Ruby和Ruby on Rails
+
+<!--break-->
