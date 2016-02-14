@@ -25,10 +25,10 @@
 在职三年期间担任软件开发工程师职位,主要从事公司平台(e管通)维护与开发以及公司定制项目、产品开发工作； 
 
 ##使用技术开发包括: 
-* 后端:ASP.NET,C#,WebForm,ASP.NET MVC 3及以上,Entity Framework 4及以上, ASP.NET WebApi； 
+* 后端:ASP.NET,C#,WebForm,ASP.NET MVC/WebApi,Entity Framework,.Net Core,； 
 * 数据库:SQL Server,Linq 
-* 前端:Javasript,jQuery,EasyUI,Bootstrap,百度地图,百度ECharts ； 
-* 工具:VS10以及以上,SVN，禅道，HP QC；  
+* 前端:Javasript,jQuery,EasyUI,Bootstrap,angurlaJS, 百度地图,百度ECharts ； 
+* 工具:VS10以及以上,SVN，禅道，HP QC,Git,GitHub
  
 ## 负责参与项目如下(时间降序): 
 * 面向中小微企业的进销存管理产品(核心业务抽象,代码编写)
@@ -106,9 +106,9 @@ identity server3的基础上针对我们公司实际情况进行改造.
 第二个项目是针对业务系统重构拆分的子系统之间api的监控,采用了granfane组件实现api getway的监控方案,对api请求时间超过阀值的接口进行报警.
 数据库的监控采用的XXXX,对每次sql的请求进行监控,同样提供设置请求超市阀值,报警功能,同时还提供了各种仪盘表. 
 
-第三个项目是面向开发人员的系统,CI,CD系统,开发方案是采用gitlab ci+开发一个流程系统.通过gitlab ci的yml文件进行msbuild,业务系统主要功能是
-规范开发的提测上线整个流程,同时也可以进行历史追踪.
-针对pre和online环境
+第三个项目是面向开发人员的系统,CI,CD系统,开发方案是采用GitLab CI和一套内部流程系统.通过GitLab CI的YML文件进行Msbuild,业务系统主要功能是
+规范开发的提测上线整个流程,同时可以支撑并发测试,也可以进行历史追踪;针对pre和online环境,采用gitflow流程,约束开发人员从master分支上面进行开分支
+进行开发,进行代码merge.每个项目都配置了gitlab ci 的yml文件,每次代码的push都会自动build.
 
 
 
