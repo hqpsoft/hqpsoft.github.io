@@ -6,14 +6,6 @@ tags: [SSO]
 description: IdentityServer3 SSO使用记录。
 ---
 
-# IdentityServer3 SSO使用记录
----
-* ### Ids3项目介绍
-* ### Ids3的SSO基本使用
-* ### Ids3使用中遇到的问题
-***
-<!--break-->
-
 ## Ids3项目介绍:
 
 > IdentityServer3是github上.net平台下,算下比较不错一个关于OpenId,Oauth开源项目,作者在这方面有多年的研究经验,版本也来到了V3;SSO是这个项目的一个附属功能,与Asp.Net集成得很友好,目前在工作中正好使用这个idead来解决公司内部系统之间的SSO,So记录下开发总结
