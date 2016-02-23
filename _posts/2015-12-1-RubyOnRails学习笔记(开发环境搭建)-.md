@@ -9,7 +9,7 @@ tags : [Ruby,Rails]
 # RubyOnRails学习笔记(开发环境搭建)
 ---
 
-#工具安装
+# 工具安装
 [下载](http://railsinstaller.org/en),RailsInstaller可以快速安装Ruby和Ruby on Rails
 
 <!--break-->
