@@ -2,7 +2,7 @@
 layout: page
 title: "Reading"
 description: "悦读·又一年"
-header-img: "img/sky2.jpg"
+header-img: "img/reading.jpg"
 ---
 
 ## 正在看

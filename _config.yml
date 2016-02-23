@@ -1,6 +1,6 @@
 # Site settings
 title: 玉林路的小酒馆
-header-img: "img/xwz.jpg"
+header-img: "img/home.jpg"
 tagline: "吉光片羽"  
 description: "那个吃火锅的南方菇凉，你是否还在玉林路的小酒馆门口； 如果有一天你结婚了，我希望，那是因为爱情遇！"  
 baseurl: ""
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: "post"
       author: "hqpsoft"
-      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/blogs.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
 # Comments 
