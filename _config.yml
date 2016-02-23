@@ -1,28 +1,28 @@
 # Site settings
-title: Microdust
+title: 玉林路的小酒馆
 header-img: "img/autumn2.jpg"
 tagline: "吉光片羽"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+description: "那个吃火锅的南方菇凉，你是否还在玉林路的小酒馆门口； 如果有一天你结婚了，我希望，那是因为爱情遇！"  
 baseurl: ""
-url: "http://azeril.me"  
-#url: "http://localhost:4000"
+url: "http://hqpsoft.github.io/"  
+
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
+  name: "hqpsoft"
+  email: hqpsoft@outlook.com
   bio: "明朝即長路 惜取此時心"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
+douban_username: hqpsoft
+twitter_username: hqpsoft  
+github_username: hqpsoft  
+facebook_username: hqpsoft  
+weibo_username: hqpsoft  
+zhihu_username: hqpsoft  
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -53,20 +53,18 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "hqpsoft"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
 # Comments 
 comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : Azeril
+  provider : disqus
   disqus :
-      short_name : Azeril
+      short_name : hqpsoft
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
+google_analytics: UA-50637568-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
