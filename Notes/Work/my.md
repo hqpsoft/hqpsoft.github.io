@@ -4,7 +4,7 @@
 性 别： 男 
 出生日期： 1991年8月31日  
 居 住 地： 成都-武侯区  
-工作年限： 3年 
+工作年限： 4年 
 电 子 邮 件: hqpsoft@outlook.com  
 手 机： 15902809831 
 # 自我评价
@@ -26,9 +26,9 @@
 
 ##使用技术开发包括: 
 * 后端:ASP.NET,C#,WebForm,ASP.NET MVC/WebApi,Entity Framework,.Net Core,； 
-* 数据库:SQL Server,Linq 
+* 数据库:SQL Server,Linq ,mysql
 * 前端:Javasript,jQuery,EasyUI,Bootstrap,angurlaJS, 百度地图,百度ECharts ； 
-* 工具:VS10以及以上,SVN，禅道，HP QC,Git,GitHub
+* 工具:VS10以及以上,SVN，禅道，HP QC,Git,GitHub,GitLab
  
 ## 负责参与项目如下(时间降序): 
 * 面向中小微企业的进销存管理产品(核心业务抽象,代码编写)
