@@ -16,8 +16,8 @@ description: IdentityServer3 SSO使用记录。
 
 ## Ids3使用中遇到的问题:
 
-**1. 在webforms下如何判断是否认证:** 只需要在`Page_Load`事件如下判断:  
-<pre><code>
+* 在webforms下如何判断是否认证:** 只需要在`Page_Load`事件如下判断:  
+```
  if (!Request.IsAuthenticated)
             {
                 HttpContext.Current.GetOwinContext().Authentication.Challenge(
@@ -27,5 +27,5 @@ description: IdentityServer3 SSO使用记录。
                     },
                     OpenIdConnectAuthenticationDefaults.AuthenticationType);
             }
-</code></pre>
-**2. 基于以上判断产生的另外一个问题:**由于webforms事件机制实现原因,以上这样判断还是会继续执行其他事件,不会立即跳转到SSO登录页面,目前我们采用的方法是在`if`里面加`Response.End();return;`
+```
+* 基于以上判断产生的另外一个问题:**由于webforms事件机制实现原因,以上这样判断还是会继续执行其他事件,不会立即跳转到SSO登录页面,目前我们采用的方法是在`if`里面加`Response.End();return;`

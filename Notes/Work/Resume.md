@@ -10,38 +10,105 @@
 * GitHub：https://github.com/hqpsoft
 * 期望职位：.Net高级开发工程师
 
-
-
 # 自我简介
-4年.Net开发经验，负责过公司平台/平台,略懂前端，专注后端，目前正在对架构设计方向前进。  
+4年.Net开发经验，负责过公司平台/平台,略懂前端，专注后端，目前正在对架构设计方向前进。
 一直担任核心开发角色，累积了一定的需求分析,业务抽象，项目架构,大数据以及前端经验。
-热爱软件开发，有进取心，责任心强，做事有主见、细心认真。  
+热爱软件开发，有进取心，责任心强，做事有主见、细心认真。
 能快速的融入新的环境，并有较强的适应能力。自学能力较强，理解能力、逻辑思维能力较好。 
 
 # 工作经历
 
-## ***优客逸家（成都）信息科技有限公司/基础架构事业部/高级.Net开发工程师/2015年4月 ~ 至今***
+## ***[优客逸家（成都）优客逸家（成都）](http://www.uoko.com/)***信息科技有限公司/基础架构事业部/高级.Net开发工程师/2015年4月 ~ 至今
 
 ## 职位描述
 * 开发部：公司业务系统重构，负责组织架构权限项目开发
 * 架构事业部：公司基础系统研发，负责SSO，Grafana，GitLab CI/CD，Api GetWay，Consul
 
-
 ## 项目经历
+---
 
 ### 1.  ***组织架构权限项目***
 在开发部门中参与公司业务系统重构的组织架构权限项目，负责项目后端业务逻辑以及跟前端进行Api契约。由于整个业务系统采用SOA架构，技术选型上采用了前后端分离方案，前端用angularJS+Asp.Net MVC路由，
 后端则采用ASP.Net WebApi+EF+MSSQL的方案。  
-
 整个项目流程为：angularJS调用MVC站点层提供的接口==>MVC站点再调用WebApi接口进行数据包装==>WebApi站点除了提供自身接口，同时还提供其他子系统接口。  
-
-整个后端业务采用T4模板反向生成实体类的EF模式，面向接口编程，用simpleinject组件解耦，数据层则使用了meentity进行读写分离，通过automapper进行model到dto的投影。  
-
-整个系统是我们组对.Net平台下Web系统开发的一次Basic Practice，开发过程中我们也进行了很多地方设计的思考；比如Dto的粒度，Dto与Entity之间的转换,Rest Ful Api接口约定语义化
-异常返回。  
-
+整个后端业务采用T4模板反向生成实体类的EF模式，面向接口编程，用[simple injector容器](https://github.com/simpleinjector/SimpleInjector)组件解耦层，数据层则使用了meentity进行读写分离，通过automapper进行model到dto的投影。  
+整个系统是我们组对.Net平台下Web系统开发的一次Basic Practice，开发过程中我们也进行了很多地方设计的思考；比如Dto的粒度，Dto与Entity之间的转换,Rest Ful Api接口约定语义化,异常返回。  
 采用Worktile管理进度，代码管理使用Git。
-
 最终项目顺利上线，解决了集团与公司之间的权限,跨公司,部门的需求。自己在这个过程中收获颇多，第一次进行尝试前后端分离分案，深刻意识到团队
 默契合作的重要性以及约定胜于配置的思想。后端则是在Leader的带领下对.Net平台下一次最佳实践。在这个过程中自己对一些技术上前后端分离，
-读写分离，业务层隔离思想有了一次实战的机会，自己也从Svn切换到Git思想下。这是一个值得纪念的项目
+读写分离，业务层隔离思想有了一次实战的机会，自己也从Svn切换到Git思想下。是一个值得纪念的项目
+
+### 2.  ***[Fire-Proj](https://github.com/uoko-J-Go/fire-proj)***
+#### 介绍
+* 搭建 CI 做代码的部署自动化过程
+* 规范 CI 过程中的开发模型以及三方(jira,git...)集成问题
+* 规范 CI 基础上的测试,上线等环境搭建以及交付流程
+* 代码质量控制工具提供体验不错的代码审查,减少抵抗心理
+
+#### 目的
+* 解决密集事件时间点上人力占用(提测,上线过程太一的辛苦和时间占用)
+* 解决各个任务之间独立测试,上线,尽可能不互相影响,依赖阻碍.(轻便交付)
+* 代码质量控制
+* 自动化流程保证,上线版本控制,备份,问题回滚等部署问题
+
+#### 项目职责
+* [对CI,CD相关知识储备](https://hqpsoft.github.io/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/CI%E5%88%9D%E6%AD%A5%E4%BA%86%E8%A7%A3.html)
+* [梳理GitFlow流程](https://hqpsoft.github.io/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/GitFlow.html)
+* CI,CD流程原型设计与梳理
+* UI设计与实现
+* 后台业务逻辑+Api接口
+
+#### 技术细节
+* 前端采用AngularJs+[Metronic模板](http://www.keenthemes.com/preview/metronic/theme/admin_2/)
+* 后台采用Asp.Net WebApi+EF(code first模式)+MSSQL
+* 使用[simple injector容器](https://github.com/simpleinjector/SimpleInjector)解耦层之间关系
+* 使用GitLab CI+[FAKE-F#](https://github.com/fsharp/FAKE)实现自动build,部署,回滚
+* 采用约定胜于配置方案config data transfering 用于多分支测试
+* GitLab作为code review
+* 使用Trello管理项目计划与进度
+
+
+## ***[厦门邑通软件科技有限公司](http://www.etomweb.com/)***/研发部/.Net开发工程师/2011/10--2014/12
+---
+
+## 职位描述
+负责公司企业云平台[E管通](http://app.xmsme.gov.cn/)，功能开发与服务以及增值服务应用。
+
+## 项目经历
+---
+
+### 1.  ***[E管通](http://app.xmsme.gov.cn/)***
+
+#### 介绍
+* “E管通”是面向全市中小微企业的国家中小企业公共服务示范平台。
+* “E管通”是PaaS云平台，它聚各类企业管理SaaS于同一平台，形成规模服务，提升厦门市云服务平台的整体影响力，打造联合发展、互相促进的良性业态机制。
+* “E管通”免费应用:销售，采购，仓库，客服，物流，生产，财务，人资，办公，项目，门店，订货，CRM管理
+
+#### 目的
+* 免费的中小微企业云管理服务 
+* 为各类企业管理云服务商提供接入服务
+* 让天下企业轻松管理
+
+#### 项目职责
+* 平台Bug解决
+* 平台功能开发与维护
+* 增值服务开发
+* 平台定制开发
+
+#### 技术细节
+* 前端采用jquery+[ligerui框架](http://www.ligerui.com/)
+* 甘特图使用[echarts](http://echarts.baidu.com/index.html)
+* 后台采用三层架构
+* 数据库读写分离
+
+# 开源项目和作品
+ * [SEMS](https://github.com/hqpsoft/SEMS)：SMES是基于EF Code First模式的Web框架面向接口编程个人最佳实践
+ * [UOKOConsul](https://github.com/uoko-J-Go/UOKOConsul):基于Consul的服务注册于发现及配置中心
+ * [uoko.sso](https://github.com/uoko-J-Go/uoko.sso):基于IdentityServer的SSO
+ 
+# 技能清单
+* 前端：Html，Css，JavaScript，Jquery，EasyUI，Ligerui，Bootstrap，AngularJS，Echarts
+* 后端：C#，Asp.Net MVC/WebApi，EF，Aspx，IIS，Aspx
+* 数据库：MSSQL，MySQL，SQLite
+* 版本管理：Svn，Git，GitLab
+* 文档工具: 禅道，Trello，Worktile,Redmine
