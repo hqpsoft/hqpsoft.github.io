@@ -6,7 +6,7 @@ header-img: "img/about.jpg"
 ---
 
 <center>
-    <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
+    <p><img src="img/yulin.jpg" align="center"></p>
 </center>
 
 
@@ -22,9 +22,4 @@ header-img: "img/about.jpg"
 如果有一天你结婚了<br>    
 我希望<br>    
 那是因为爱情<br>    
-</center>
-
-                                                                                                
-<center>
-    <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
 </center>
