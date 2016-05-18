@@ -9,10 +9,12 @@ header-img: "img/about.jpg"
     <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
 </center>
 
+
+<center>
 成都，我回来了   
-锦里，宽窄巷子，春熙路  
+锦里，春熙路，宽窄巷子  
 依旧还是那么熙熙攘攘  
-串串，冒菜，火锅  
+火锅，冒菜，串串  
 还是那个熟悉的味道  
 那个吃火锅的南方菇凉  
 你是否还在  
@@ -20,12 +22,9 @@ header-img: "img/about.jpg"
 如果有一天你结婚了  
 我希望  
 那是因为爱情  
+</center>
 
-——Hqp Soft
-
-
-> Live long and prosper
-
+                                                                                                
 <center>
     <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
 </center>
