@@ -45,7 +45,8 @@ header-img: "img/about.jpg"
 默契合作的重要性以及约定胜于配置的思想。后端则是在Leader的带领下对.Net平台下一次最佳实践。在这个过程中自己对一些技术上前后端分离，
 读写分离，业务层隔离思想有了一次实战的机会，自己也从Svn切换到Git思想下。是一个值得纪念的项目
 
-### 2.  ***[Fire-Proj](https://github.com/uoko-J-Go/fire-proj)***
+### 2.  ***[Fire-Proj](https://github.com/uoko-J-Go/fire-proj)*** 
+
 #### 介绍
 * 搭建 CI 做代码的部署自动化过程
 * 规范 CI 过程中的开发模型以及三方(jira,git...)集成问题
