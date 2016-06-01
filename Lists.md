@@ -9,7 +9,7 @@ header-img: "img/reading.jpg"
 
 * [一只特立独行的猪](https://book.douban.com/subject/1767945/) 
 
-***
+---
 
 # 待看
 
@@ -22,7 +22,7 @@ header-img: "img/reading.jpg"
 * [小王子(中英法三语版)](https://book.douban.com/subject/3693974/)
 * [西藏生死书](https://book.douban.com/subject/5990251/)
 
-***
+---
 
 # 已看
 ## 2015
