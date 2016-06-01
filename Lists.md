@@ -16,6 +16,7 @@ header-img: "img/reading.jpg"
 #### Kindle
 * [瓦尔登湖](https://book.douban.com/subject/3522695/)
 
+---
 
 #### 纸质
 * [茶之书](https://book.douban.com/subject/4274472/)
@@ -25,11 +26,14 @@ header-img: "img/reading.jpg"
 ---
 
 # 已看
+
 #### 2015
 * [致陆小曼](https://book.douban.com/subject/25978102/)
 * [我们为什么会分手？](https://book.douban.com/subject/26146992/)
 * [男人来自金星,女人来自火星4册](https://book.douban.com/subject/5356342/) 
 * [黑客与画家](https://book.douban.com/subject/6021440/)
+
+---
 
 #### 2016
 * [解忧杂货店](http://book.douban.com/subject/25862578/)  
