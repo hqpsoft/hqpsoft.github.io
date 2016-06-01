@@ -6,13 +6,13 @@ header-img: "img/reading.jpg"
 ---
 
 # 在看
-
+---
 * [一只特立独行的猪](https://book.douban.com/subject/1767945/) 
 
 ---
 
 # 待看
-
+---
 #### Kindle
 * [瓦尔登湖](https://book.douban.com/subject/3522695/)
 
@@ -26,7 +26,7 @@ header-img: "img/reading.jpg"
 ---
 
 # 已看
-
+---
 #### 2015
 * [致陆小曼](https://book.douban.com/subject/25978102/)
 * [我们为什么会分手？](https://book.douban.com/subject/26146992/)
