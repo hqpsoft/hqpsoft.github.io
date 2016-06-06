@@ -7,7 +7,7 @@ header-img: "img/reading.jpg"
 
 # 在看
 
-* [一只特立独行的猪](https://book.douban.com/subject/1767945/) 
+* [情人](https://book.douban.com/subject/1400705/)
 
 ---
 
@@ -43,4 +43,4 @@ header-img: "img/reading.jpg"
 * [陪安东尼度过漫长岁月(黄)](https://book.douban.com/subject/25808222/) 
 * [重新定义公司:谷歌是如何运营的](https://book.douban.com/subject/26582822/)
 * [爱你就像爱生命](https://book.douban.com/subject/3071717/)
-  
+* [一只特立独行的猪](https://book.douban.com/subject/1767945/)   
