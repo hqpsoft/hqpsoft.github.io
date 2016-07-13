@@ -7,7 +7,7 @@ header-img: "img/reading.jpg"
 
 # 在看
 
-* [斯坦福极简经济学](https://book.douban.com/subject/26314063/)
+* [达摩流浪者](https://book.douban.com/subject/3151990/)
 
 ---
 
@@ -15,7 +15,7 @@ header-img: "img/reading.jpg"
 
 #### Kindle
 * [瓦尔登湖](https://book.douban.com/subject/3522695/)
-* [达摩流浪者](https://book.douban.com/subject/3151990/)
+
 ---
 
 #### 纸质
@@ -44,4 +44,5 @@ header-img: "img/reading.jpg"
 * [重新定义公司:谷歌是如何运营的](https://book.douban.com/subject/26582822/)
 * [爱你就像爱生命](https://book.douban.com/subject/3071717/)
 * [一只特立独行的猪](https://book.douban.com/subject/1767945/)
-* [情人](https://book.douban.com/subject/1400705/)   
+* [情人](https://book.douban.com/subject/1400705/)
+* [斯坦福极简经济学](https://book.douban.com/subject/26314063/)   
