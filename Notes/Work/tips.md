@@ -27,6 +27,7 @@
 
 * 关于部署出现`The OutputPath property is not set for project "xxxx"问题`.
 ```
-这个问题是webconfig transfer配置导致, 要配置成全局的
+这个问题是webconfig transfer配置导致, 要配置成全局的 
 ```
 
+ 
