@@ -7,7 +7,7 @@ header-img: "img/reading.jpg"
 
 # 在看
 
-* [达摩流浪者](https://book.douban.com/subject/3151990/)
+* [安静:内向性格的竞争力](https://book.douban.com/subject/11601993/)
 
 ---
 
@@ -48,3 +48,4 @@ header-img: "img/reading.jpg"
 * [一只特立独行的猪](https://book.douban.com/subject/1767945/)
 * [情人](https://book.douban.com/subject/1400705/)
 * [斯坦福极简经济学](https://book.douban.com/subject/26314063/)   
+* [达摩流浪者](https://book.douban.com/subject/3151990/)
