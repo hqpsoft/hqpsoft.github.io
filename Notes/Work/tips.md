@@ -15,7 +15,8 @@
 
 * 关于CI发版, webconfig transfer转换与本地vs预览效果不一致的问题
 ```
-关于这个问题, 通过排查找到的原因是site下的其他文件夹还有webconfig文件导致转换失败
+关于这个问题, 通过排查找到的原因是site下的其他文件夹还有webconfig文件导致没有使用根目录下
+webconfig文件
 ```
 
 * 关于CI部署的时候出现`Not possible to fast-forward, aborting`的问题
@@ -30,4 +31,13 @@
 这个问题是webconfig transfer配置导致, 要配置成全局的 
 ```
 
- 
+* 关于部署出现`Your local changes to the following files would be overwritten by checkout问题`.
+```
+这个问题我们的之前的项目是从tfs迁移过来的, 解决方案是打开项目根目录的`.gitattributes`文件,把开头的
+`* text=auto`注释掉,像这样`#* text=auto`
+```
+
+* 关于部署出现提示服务器权限/授权等信息问题.
+```
+找庆攀或志平,这种一般是IIS网站没有启用msbuild部署
+```

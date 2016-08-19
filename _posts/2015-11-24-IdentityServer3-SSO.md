@@ -29,3 +29,5 @@ description: IdentityServer3 SSO使用记录。
             }
 ```
 * 基于以上判断产生的另外一个问题:**由于webforms事件机制实现原因,以上这样判断还是会继续执行其他事件,不会立即跳转到SSO登录页面,目前我们采用的方法是在`if`里面加`Response.End();return;`
+
+* ids接入ssl证书时, ids本身的`idstest`证书是拿来做加密认证, 跟ssl正式是2套东西
