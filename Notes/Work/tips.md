@@ -41,3 +41,12 @@ webconfig文件
 ```
 找庆攀或志平,这种一般是IIS网站没有启用msbuild部署
 ```
+
+
+# powershell远程更新文件(设置目录共享)
+```
+Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\WIN-DEVTEST-004\gitlab-runner -recurse
+Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\WIN-DEVTEST-003\gitlab-runner -recurse
+Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\WIN-DEVTEST-002\gitlab-runner -recurse
+Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\192.168.200.25\gitlab-runner  -recurse
+```
