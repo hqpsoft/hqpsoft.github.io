@@ -50,3 +50,11 @@ Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\WIN-DEVTEST-003\gitlab
 Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\WIN-DEVTEST-002\gitlab-runner -recurse
 Copy-item -Path E:/Git\fire-proj/build.fsx -Destination \\192.168.200.25\gitlab-runner  -recurse
 ```
+
+git branch -vv | Select-String -Pattern ': gone]' | ForEach-Object{($_ -split "\s+")[1]} | %{ git branch -D $_ }
+git branch -vv | Select-String -Pattern ': gone]' | ForEach-Object{($_ -split "\s+")[1]} | %{ git branch -D $_ } # 
+
+# 设置webconfig的加密方式
+```
+aspnet_regiis.exe -pef "connectionStrings" "D:\Git\J-Go\fire-proj\src\Uoko.FireProj.WebSite"  
+```
